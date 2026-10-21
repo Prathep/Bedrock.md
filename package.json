@@ -1,0 +1,19 @@
+{
+	"name": "bedrock",
+	"productName": "Bedrock",
+	"description": "Bedrock Desktop Application",
+	"version": "1.12.722",
+	"license": "UNLICENSED",
+	"author": "Bedrock",
+	"private": true,
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"pack": "asar pack . app.asar"
+	},
+	"dependencies": {
+		"@electron/remote": "2.1.3",
+		"btime": "../btime",
+		"get-fonts": "../get-fonts"
+	}
+}
